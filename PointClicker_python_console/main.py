@@ -1,30 +1,44 @@
 from pointclickergame import *
 from os import system
-from time import time
 
 pcg = pointclickergame()
+
+def MainMenu():
+	system("cls")
+	print("---------- POINT CLICKER ----------")
+	print("1) Start new game")
+	print("2) Load saved game")
+	print("3) Exit")
+	return int(input("Enter here > "))
 
 def Menu():
 	system("cls")
 	print("Your score :", pcg.score)
+	i = 0
 	for upg in pcg.upgrades:
-		print(upg.name, "[" + str(upg.amount) + "]",upg.description, upg.cost)
-	n = input("What do you want to do > ")
-	return n
-
+		print(str(i+1) + ")", upg.name, "[" + str(upg.amount) + "]",upg.description, upg.cost)
+		i+=1
+	return int(input("What do you want to do (-1 for save & exit) > "))
 
 if __name__ == '__main__':
 	system("color 02")
-	for i in range(0, 100):
-		pcg.command(0)
-	while(1):
-
-		n = Menu()
-		if(n == '-1'):
+	n = MainMenu()
+	while(True):
+		if(n == 1):
+			while(True):
+				n = Menu()
+				if(n == -1):
+					pcg.save()
+					exit()
+				try:
+					pcg.command(n - 1)
+				except:
+					continue
+				pcg.add_pps()
+		elif(n == 3):
 			exit()
-
-		try:
-			pcg.command(int(n) - 1)
-		except:
-			continue
-		pcg.add_pps()
+		elif(n == 2):
+			pcg.load()
+			n = 1
+		else:
+			n = MainMenu()
