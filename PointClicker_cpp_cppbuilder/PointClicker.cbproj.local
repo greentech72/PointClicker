@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/27 21:09:42.000.817,=C:\Users\danya\source\repos\Unit1.cpp</Transaction>
+    <Transaction>2020/02/27 21:09:42.000.752,=C:\Users\danya\source\repos\Project1PCH1.h</Transaction>
+    <Transaction>2020/03/19 22:22:24.413,=C:\Users\danya\source\repos\Project1PCH1.h</Transaction>
+    <Transaction>2020/03/19 22:22:24.448,=C:\Users\danya\source\repos\Unit1.cpp</Transaction>
+    <Transaction>2020/03/19 22:22:46.501,C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\Project1PCH1.h=C:\Users\danya\source\repos\Project1PCH1.h</Transaction>
+    <Transaction>2020/03/19 22:22:52.147,C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\Unit1.h=C:\Users\danya\source\repos\Unit1.h</Transaction>
+    <Transaction>2020/03/19 22:22:52.147,C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\Unit1.dfm=C:\Users\danya\source\repos\Unit1.dfm</Transaction>
+    <Transaction>2020/03/19 22:22:52.147,C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\Unit1.cpp=C:\Users\danya\source\repos\Unit1.cpp</Transaction>
+    <Transaction>2020/03/19 22:23:04.724,C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\PointClickerPCH1.h=C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\Project1PCH1.h</Transaction>
+    <Transaction>2020/03/19 22:23:04.771,C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\PointClicker.cbproj=C:\Users\danya\source\repos\Project1.cbproj</Transaction>
+    <Transaction>2020/03/19 22:25:43.075,=C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\pointClickerGame.cpp</Transaction>
+    <Transaction>2020/03/19 22:25:43.077,=C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\pointClickerGame.h</Transaction>
+    <Transaction>2020/03/19 22:55:03.175,=C:\Users\danya\Desktop\PointClicker\PointClicker_cpp_cppbuilder\save.txt</Transaction>
+  </Transactions>
+</BorlandProject>
