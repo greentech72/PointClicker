@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'PointClicker'
-  ClientHeight = 478
+  ClientHeight = 507
   ClientWidth = 323
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -3550,8 +3550,20 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
   end
-  object ListBox1: TListBox
+  object Label3: TLabel
     Left = 16
+    Top = 399
+    Width = 5
+    Height = 23
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+  end
+  object ListBox1: TListBox
+    Left = 8
     Top = 112
     Width = 289
     Height = 273
@@ -3563,6 +3575,7 @@ object Form1: TForm1
     ItemHeight = 23
     ParentFont = False
     TabOrder = 0
+    OnClick = ListBox1Click
   end
   object Button1: TButton
     Left = 16
@@ -3581,7 +3594,7 @@ object Form1: TForm1
   end
   object Button2: TButton
     Left = 16
-    Top = 400
+    Top = 442
     Width = 289
     Height = 57
     Caption = 'Exit'
@@ -3598,6 +3611,12 @@ object Form1: TForm1
     Interval = 100
     OnTimer = Timer1Timer
     Left = 240
+    Top = 320
+  end
+  object Timer2: TTimer
+    Interval = 1500
+    OnTimer = Timer2Timer
+    Left = 144
     Top = 320
   end
 end
