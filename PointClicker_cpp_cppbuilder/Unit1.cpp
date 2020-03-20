@@ -72,3 +72,25 @@ Timer2->Enabled = false;
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm1::Exit1Click(TObject *Sender)
+{
+Form1->Close();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Save1Click(TObject *Sender)
+{
+pcg.save();
+Timer2->Enabled = true;
+Label3->Caption = "Saved...";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Load1Click(TObject *Sender)
+{
+pcg.load();
+Timer2->Enabled = true;
+Label3->Caption = "Loaded...";
+}
+//---------------------------------------------------------------------------
+

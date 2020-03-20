@@ -8,6 +8,7 @@
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
 #include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Menus.hpp>
 
 #include <string>
 #include "pointClickerGame.h"
@@ -25,11 +26,19 @@ __published:	// IDE-managed Components
 	TTimer *Timer1;
 	TLabel *Label3;
 	TTimer *Timer2;
+	TMainMenu *MainMenu1;
+	TMenuItem *File1;
+	TMenuItem *Save1;
+	TMenuItem *Load1;
+	TMenuItem *Exit1;
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Timer1Timer(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall ListBox1Click(TObject *Sender);
 	void __fastcall Timer2Timer(TObject *Sender);
+	void __fastcall Exit1Click(TObject *Sender);
+	void __fastcall Save1Click(TObject *Sender);
+	void __fastcall Load1Click(TObject *Sender);
 private:	// User declarations
 	PointClickerGame pcg;
     void __fastcall TForm1::SHOW();
