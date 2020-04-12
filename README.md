@@ -5,7 +5,7 @@ click and click and click then buy some upgrades and click, click, click...</p>
 <h3>There are:</h3>
 <ul>
   <li>C++ Console version of the game</li>
-  <li>C++ GUI version (Maked with C++ Builder)</li>
+  <li>C++ GUI version (Made with C++ Builder)</li>
   <li>Python Console version</li>
   <li>Python GUI version (PyQt5)</li>
 </ul>
